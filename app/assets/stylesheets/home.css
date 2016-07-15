@@ -1,0 +1,22 @@
+.sqs-block-image img {
+  width: 86%;
+  margin-left: 7%;
+}
+
+#wrapper {
+  border: 1px solid lightgray;
+}
+
+.main-nav a {
+  font-family: 'Varela', sans-serif;
+}
+
+.home-page-picture{
+  width: 30%;
+}
+
+#home-page-picture {
+  width: 60%;
+  padding-top: 25px;
+  margin: auto;
+}

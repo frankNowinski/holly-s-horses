@@ -4,19 +4,36 @@
 }
 
 #wrapper {
-  border: 1px solid lightgray;
+  border: 1px solid rgba(0,0,0,.1);
 }
 
-.main-nav a {
+.main-nav li {
   font-family: 'Varela', sans-serif;
+  line-height: 1.6em;
+  font-size: 13px;
 }
 
-.home-page-picture{
+.home-page-picture {
   width: 30%;
 }
 
 #home-page-picture {
-  width: 60%;
+  width: 62%;
   padding-top: 25px;
   margin: auto;
+}
+
+#topNav nav ul li.folder-collection ul li a, #categoryNav nav ul li.folder-collection ul li a {
+  font-family: 'Varela', sans-serif;
+  line-height: 1.6em;
+  font-size: 12px;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.hide {
+  display: none;
 }

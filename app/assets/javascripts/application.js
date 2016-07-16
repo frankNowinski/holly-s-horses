@@ -9,6 +9,12 @@
 
 $(function(){
   $('#home-page-picture').mouseover(function(){
-    $('.image-caption').removeClass('hide');
-  })
+    $('.image-caption').slideDown('medium', function(){
+    });
+  });
+
+  $('#home-page-picture').mouseout(function(){
+    $('.image-caption').slideUp('medium', function(){
+    });
+  });
 });

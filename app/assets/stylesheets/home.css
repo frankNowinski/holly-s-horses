@@ -15,6 +15,7 @@
 
 .home-page-picture {
   width: 30%;
+  z-index: 0;
 }
 
 #home-page-picture {
@@ -28,12 +29,28 @@
   line-height: 1.6em;
   font-size: 12px;
 }
+.image-caption p {
+  font-family: "Trebuchet MS", serif;
+  padding-top: 10px;
+  color: lightgray;
+}
 
 .image-caption {
   text-align: center;
-  font-size: 1.3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 62%;
+  margin: auto;
+  height: 40px;
+  margin-top: -40px;
+  position: relative;
 }
 
 .hide {
   display: none;
+}
+
+.index-caption {
+  /*text-align: center;*/
+  /*width: 50%;*/
 }

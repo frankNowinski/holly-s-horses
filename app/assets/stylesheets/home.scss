@@ -1,5 +1,6 @@
 .wrapper {
   margin-top: 72px;
+  margin-bottom: 72px;
   border: 1px solid rgba(0,0,0,.1);
 }
 
@@ -22,10 +23,13 @@
 }
 
 .home-picture-comment {
-  font-family: "Trebuchet MS", serif;
+  font-family: "Baskerville", serif;
   padding-top: 10px;
   color: gray;
-  font-size: 14px;
+  font-size: 15px;
+  color: rgba(92,92,92,.6);
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 #topNav nav ul li.folder-collection ul li a {
@@ -35,7 +39,7 @@
 }
 
 .image-caption p {
-  font-family: "Trebuchet MS", serif;
+  font-family: 'Varela', sans-serif;
   padding-top: 10px;
   color: lightgray;
 }
@@ -53,4 +57,8 @@
 
 .hide-caption {
   display: none;
+}
+
+.divider {
+  border-bottom: 1px solid lightgray;
 }

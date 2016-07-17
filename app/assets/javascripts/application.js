@@ -9,6 +9,7 @@
 
 $(function(){
   $('#home-page-picture').mouseover(function(){
+    $('.image-caption').removeClass('hide');
     $('.image-caption').slideDown('medium', function(){
     });
   });

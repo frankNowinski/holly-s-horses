@@ -1,10 +1,12 @@
-.sqs-block-image img {
-  width: 86%;
-  margin-left: 7%;
+.wrapper {
+  margin-top: 72px;
+  border: 1px solid rgba(0,0,0,.1);
 }
 
-#wrapper {
-  border: 1px solid rgba(0,0,0,.1);
+// Header image
+.sqs-block-image img {
+  width: 94%;
+  margin-left: 3%;
 }
 
 .main-nav li {
@@ -13,22 +15,25 @@
   font-size: 13px;
 }
 
-.home-page-picture {
-  width: 30%;
-  z-index: 0;
-}
-
 #home-page-picture {
-  width: 62%;
+  width: 65%;
   padding-top: 25px;
   margin: auto;
 }
 
-#topNav nav ul li.folder-collection ul li a, #categoryNav nav ul li.folder-collection ul li a {
+.home-picture-comment {
+  font-family: "Trebuchet MS", serif;
+  padding-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+#topNav nav ul li.folder-collection ul li a {
   font-family: 'Varela', sans-serif;
   line-height: 1.6em;
   font-size: 12px;
 }
+
 .image-caption p {
   font-family: "Trebuchet MS", serif;
   padding-top: 10px;
@@ -39,18 +44,13 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  width: 62%;
+  width: 65%;
   margin: auto;
   height: 40px;
   margin-top: -40px;
   position: relative;
 }
 
-.hide {
+.hide-caption {
   display: none;
-}
-
-.index-caption {
-  /*text-align: center;*/
-  /*width: 50%;*/
 }
